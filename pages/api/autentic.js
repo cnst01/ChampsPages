@@ -3,7 +3,7 @@ function autentic(request, response){
 
     response.json({
         date: dynamicDate.toGMTSring()
-    })
+    });
 }
 
-export default autentic 
+export default autentic; 
