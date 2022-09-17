@@ -1,4 +1,4 @@
-function autentic(request, response){
+function tempo(request, response){
     const dynamicDate = new Date();
 
     response.json({
@@ -6,4 +6,4 @@ function autentic(request, response){
     });
 }
 
-export default autentic; 
+export default tempo; 
